@@ -1,0 +1,16 @@
+# Dependencies
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+Desktop.ini
+local/
+private/
+.env
+.codex/
+新建文件夹/

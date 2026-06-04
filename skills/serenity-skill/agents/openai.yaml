@@ -1,0 +1,9 @@
+interface:
+  display_name: "Serenity Skill"
+  short_description: "Supply-chain bottleneck research lens"
+  brand_color: "#111827"
+  default_prompt: "Use $serenity-skill to map the value chain, find scarce layers, rank research priorities, and state what would prove the thesis wrong."
+policy:
+  allow_implicit_invocation: true
+dependencies:
+  tools: []

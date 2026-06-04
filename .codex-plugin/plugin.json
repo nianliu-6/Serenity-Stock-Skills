@@ -1,0 +1,41 @@
+{
+  "name": "serenity-skill",
+  "version": "1.0.1",
+  "description": "Supply-chain bottleneck hunter for US and A-share equity research. Combines a source-backed research workflow with Serenity's public analytical lens for AI, semiconductor, optical, memory, power, and neocloud supply chains.",
+  "author": {
+    "name": "nianliu-6"
+  },
+  "homepage": "https://github.com/nianliu-6/Serenity-Stock-Skills",
+  "repository": "https://github.com/nianliu-6/Serenity-Stock-Skills",
+  "license": "MIT",
+  "keywords": [
+    "investment",
+    "supply-chain",
+    "bottleneck",
+    "equity-research",
+    "US-stocks",
+    "A-shares",
+    "AI-semiconductor",
+    "CPO",
+    "photonics"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Serenity Skill",
+    "shortDescription": "Supply-chain bottleneck research lens",
+    "longDescription": "Research-support plugin for mapping supply-chain scarce layers, validating evidence, ranking research priorities, and pressure-testing US and A-share investment theses through a Serenity-inspired public methodology.",
+    "developerName": "nianliu-6",
+    "category": "Finance",
+    "capabilities": [
+      "Research",
+      "Analysis"
+    ],
+    "websiteURL": "https://github.com/nianliu-6/Serenity-Stock-Skills",
+    "defaultPrompt": [
+      "Use $serenity-skill to map an AI supply chain and rank scarce layers.",
+      "Use $serenity-skill to challenge this ticker thesis with evidence.",
+      "Use $serenity-skill to build a catalyst watch for this theme."
+    ],
+    "brandColor": "#111827"
+  }
+}
